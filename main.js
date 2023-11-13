@@ -1,13 +1,11 @@
-//console.log("Hello World");
-let age = 27;
-const Name = 8000;
-console.log(Name);
-const person= {
-    firstName:'Baku',
-    LastName : ' Riche',
-    Age : '27',
+// odd or even
+function evenOdd (value) {
+    if (value % 2 === 0) {
+        return " value is Even numbre"
+    } else {
+        return "value is Odd numbre"
+    }
 }
-console.log(person.firstName+person.LastName)
-
-const OddNum =[5 , 7 , 13]
-console.log(OddNum[2])
+console.log (evenOdd(1))
+// simpler code but same 
+// return value % 2 == 0 ? "value is Even" : "Odd"
